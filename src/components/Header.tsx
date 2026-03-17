@@ -1,6 +1,6 @@
 export const Header = () => {
   return (
-    <nav className="w-full bg-[#f3f0ed] border-b border-[#e2deda]">
+    <nav className="w-full bg-[#f3f0ed] border-b border-[#e2deda] fixed z-50">
       <div className="container h-18 flex items-center justify-between">
         <h3 className="text-[32px] text-[#79542e]">Maria Ridal</h3>
         <div className="text-2xl text-[#79542e] flex gap-6">
