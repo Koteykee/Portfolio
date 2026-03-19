@@ -6,29 +6,34 @@ import Prev4 from "../assets/Prev4.jpg";
 export const MyProjects = () => {
   return (
     <div className="container flex flex-col">
-      <div className="flex items-center justify-center gap-4 my-6">
-        <div className="h-px w-20 bg-linear-to-r from-transparent to-[#d89b68]"></div>
+      <div className="flex items-center justify-center gap-4 mt-20 mb-6">
+        <div className="h-0.75 w-20 bg-linear-to-r from-transparent to-[#d89b68]"></div>
         <p
           id="projects-section"
-          className="text-lg font-semibold tracking-widest uppercase text-[#a47148] scroll-mt-20"
+          className="text-[26px] font-semibold tracking-widest uppercase text-[#a47148] scroll-mt-20"
         >
           My Projects
         </p>
-        <div className="h-px w-20 bg-linear-to-l from-transparent to-[#d89b68]"></div>
+        <div className="h-0.75 w-20 bg-linear-to-l from-transparent to-[#d89b68]"></div>
       </div>
-      <h2 className="text-center text-[20px] mb-4">
+      <h2 className="text-center text-[20px] mb-6">
         A selection of projects that showcase my skills and reflect my
         continuous learning in frontend development.
       </h2>
       <div className="flex gap-2">
         <div className="flex-1 max-w-sm bg-[#f7f5f3] border border-gray-200 rounded-xl shadow-[0_8px_16px_rgba(0,0,0,0.08)] p-4 cursor-pointer group transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
           <img src={Prev1} alt="Preview image" />
-          <p className="text-[22px] font-bold group-hover:underline underline-offset-3">
+          <p className="min-[1300px]:text-[22px] text-[18px] font-bold group-hover:underline underline-offset-3">
             Upload App
           </p>
           <div className="font-bold my-1">
-            <span className="text-[17px] underline">Stack:</span>
-            <span> TypeScript, React, TailwindCSS, Zustand.</span>
+            <span className="min-[1300px]:text-[17px] text-[15px] underline">
+              Stack:
+            </span>
+            <span className="max-[1300px]:text-[15px]">
+              {" "}
+              TypeScript, React, TailwindCSS, Zustand.
+            </span>
           </div>
           <p>
             Secure and modern full-stack web application that allows
@@ -39,12 +44,17 @@ export const MyProjects = () => {
         </div>
         <div className="flex-1 max-w-sm bg-[#f7f5f3] border border-gray-200 rounded-xl shadow-[0_8px_16px_rgba(0,0,0,0.08)] p-4 cursor-pointer group transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
           <img src={Prev3} alt="Preview image" />
-          <p className="text-[22px] font-bold group-hover:underline underline-offset-3">
+          <p className="min-[1300px]:text-[22px] text-[18px] font-bold group-hover:underline underline-offset-3">
             JWT Authorization Page
           </p>
           <div className="font-bold my-1">
-            <span className="text-[17px] underline">Stack:</span>
-            <span> TypeScript, React, Zustand.</span>
+            <span className="min-[1300px]:text-[17px] text-[15px] underline">
+              Stack:
+            </span>
+            <span className="max-[1300px]:text-[15px]">
+              {" "}
+              TypeScript, React, Zustand.
+            </span>
           </div>
           <p>
             User authentication app with JWT login/registration, protected
@@ -54,12 +64,17 @@ export const MyProjects = () => {
         </div>
         <div className="flex-1 max-w-sm bg-[#f7f5f3] border border-gray-200 rounded-xl shadow-[0_8px_16px_rgba(0,0,0,0.08)] p-4 cursor-pointer group transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
           <img src={Prev4} alt="Preview image" />
-          <p className="text-[22px] font-bold group-hover:underline underline-offset-3">
+          <p className="min-[1300px]:text-[22px] text-[18px] font-bold group-hover:underline underline-offset-3">
             Superheroes App
           </p>
           <div className="font-bold my-1">
-            <span className="text-[17px] underline">Stack:</span>
-            <span> TypeScript, React, Zustand.</span>
+            <span className="min-[1300px]:text-[17px] text-[15px] underline">
+              Stack:
+            </span>
+            <span className="max-[1300px]:text-[15px]">
+              {" "}
+              TypeScript, React, Zustand.
+            </span>
           </div>
           <p>
             Superhero management app with hybrid data handling (external API +
@@ -69,12 +84,17 @@ export const MyProjects = () => {
         </div>
         <div className="flex-1 max-w-sm bg-[#f7f5f3] border border-gray-200 rounded-xl shadow-[0_8px_16px_rgba(0,0,0,0.08)] p-4 cursor-pointer group transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
           <img src={Prev2} alt="Preview image" />
-          <p className="text-[22px] font-bold group-hover:underline underline-offset-3">
+          <p className="min-[1300px]:text-[22px] text-[18px] font-bold group-hover:underline underline-offset-3">
             Organizer App
           </p>
           <div className="font-bold my-1">
-            <span className="text-[17px] underline">Stack:</span>
-            <span> TypeScript, React.</span>
+            <span className="min-[1300px]:text-[17px] text-[15px] underline">
+              Stack:
+            </span>
+            <span className="max-[1300px]:text-[15px]">
+              {" "}
+              TypeScript, React.
+            </span>
           </div>
           <p>
             Multifunctional organizer application featuring a customizable
