@@ -49,7 +49,7 @@ export const ContactMe = () => {
         <div className="flex flex-col items-center">
           <p className="text-[20px] text-[#79542e] font-bold">Resume</p>
           <a
-            href="https://drive.google.com/file/d/1TLu-lDDtjpE3YoYi5nd9U4drRWG6xXsI/view?usp=sharing"
+            href="https://drive.google.com/file/d/1JYptzYpAC1_hB3uxHgI8p2HHJfFDeElr/view?usp=sharing"
             target="_blank"
             className="inline-block text-[20px] transition-transform duration-300 ease-in-out hover:scale-105 hover:underline"
           >
